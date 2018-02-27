@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "425036a0-4059-405e-8986-38a89cf93f05",
+            "Value": {
+                "id": "5d2b6bf1-64e4-496a-b432-9f7f7e1fdfe5",
+                "resourcePath": "sprites\\robot_head_start\\robot_head_start.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4931a9d0-1049-4819-9b1d-85d88e4064de",
             "Value": {
                 "id": "44e93ef8-9802-49db-b597-895dd4562de1",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "acbca97f-c7ae-468b-9502-39b7d9530639",
+            "Value": {
+                "id": "38a75523-de78-4def-bbd3-f7600a3aa29f",
+                "resourcePath": "sprites\\robot_body\\robot_body.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af30b312-c8e3-4cf5-a33c-56601313192f",
             "Value": {
                 "id": "fed053a4-3958-46e1-a0ac-5f14adaf45ff",
@@ -383,6 +399,14 @@
             }
         },
         {
+            "Key": "d2f78ea1-faea-4e41-9f9e-fa9f9ba3e304",
+            "Value": {
+                "id": "cce7a3b7-0f51-411c-8d02-e802f02f48ac",
+                "resourcePath": "views\\d2f78ea1-faea-4e41-9f9e-fa9f9ba3e304.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d7da3020-b0f6-4b3c-8357-79456174205a",
             "Value": {
                 "id": "6561d1c5-1a34-44c4-9947-c3e9c24305f5",
@@ -444,6 +468,14 @@
                 "id": "4d19a7bf-c51f-45b9-9845-5ec1967c05dc",
                 "resourcePath": "views\\f576f532-0c2b-4040-8266-48e336b56a7a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6b63275-9ef0-4710-9e60-7cd3b37abb49",
+            "Value": {
+                "id": "e93e48f7-c110-4f51-b280-ace9d95c90f2",
+                "resourcePath": "sprites\\robot_legs\\robot_legs.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
