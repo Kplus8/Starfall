@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "08679ddc-d3ec-410c-99e9-c29e9da12185",
+            "Value": {
+                "id": "517365a4-3afb-4845-a76a-f0580d8522f3",
+                "resourcePath": "objects\\objHealth\\objHealth.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c521ba8-915b-4454-bf09-13f4ba29c8df",
             "Value": {
                 "id": "f2a9dbe6-c005-412e-a295-fe19761da392",
@@ -100,6 +108,14 @@
                 "id": "dcfc0352-5161-42d3-8c26-925dc294ed31",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3fda7387-949d-4fb3-926e-f2e2672180ed",
+            "Value": {
+                "id": "db481555-59aa-48c4-ab5f-b3a9b9351fbd",
+                "resourcePath": "sprites\\spr_health\\spr_health.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "722a15b1-25b0-47f9-8a2b-d4eabd3b3f86",
+            "Value": {
+                "id": "d8b01523-974d-4051-b00c-1bc31e51c4c4",
+                "resourcePath": "sprites\\sprPlayerHit\\sprPlayerHit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a8ce375-af21-4f29-bd0f-936ce91ff455",
             "Value": {
                 "id": "d3c2d5ef-873f-4c50-952b-9679dec56744",
@@ -311,6 +335,14 @@
             }
         },
         {
+            "Key": "9350e13c-ec29-472f-9897-1f144160dd9d",
+            "Value": {
+                "id": "faf5ac00-95ec-46fa-862e-8f84b141c791",
+                "resourcePath": "objects\\obj_enemy_bullet\\obj_enemy_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "941b35fd-9a0a-4b3b-bff2-7488febb88ef",
             "Value": {
                 "id": "640cd1d1-a23b-4d0e-993f-75ece404d8ff",
@@ -371,6 +403,14 @@
             "Value": {
                 "id": "f6943243-f4dc-4f34-9f66-a66fd21df7c8",
                 "resourcePath": "sprites\\spr_enemy_fragment\\spr_enemy_fragment.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a84177a2-c785-4d28-b0ea-d38b030a1065",
+            "Value": {
+                "id": "6f6cd544-cbbe-4b88-a0d7-fb77848442f1",
+                "resourcePath": "sprites\\sprEnemyBullet\\sprEnemyBullet.yy",
                 "resourceType": "GMSprite"
             }
         },

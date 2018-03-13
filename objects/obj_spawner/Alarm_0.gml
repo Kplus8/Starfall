@@ -1,5 +1,5 @@
 //Create 8 new enemies
-repeat(8)
+repeat(6)
 {
 	instance_create_layer(random(room_width),random(room_height),"lay_enemy",obj_enemy);
 }

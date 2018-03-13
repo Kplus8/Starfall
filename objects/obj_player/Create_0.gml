@@ -8,5 +8,5 @@ ammo = 0;				//when ammo reaches zero, return to default weapon (unlimited ammo)
 cooldown = 0;			//able to fire again when cooldown reaches zero (based on weaponspd)
 hp = 5;
 max_hp = 5;
-hit_cooldown_time = 1*room_speed;
+hit_cooldown_time = 1.5*room_speed;
 hit_cooldown = 0;
