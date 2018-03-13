@@ -1,0 +1,1 @@
+room_goto(2) //Help room 
