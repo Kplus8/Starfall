@@ -2,7 +2,7 @@
 if (mouse_check_button(mb_left)) 
 {
 	//reduce speed to account for recoil
-	spd = 2;
+	spd = basespd/2;
 	if (cooldown == 0)
 	{
 		//reduce ammo of special weapon if necessary

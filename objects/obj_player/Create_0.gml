@@ -1,12 +1,12 @@
 ///Initialize variables
 
-basespd = 4;			//default movement speed
-spd = 4;				//current movement speed 
+basespd = 5;			//default movement speed
+spd = 5;				//current movement speed 
 weapon = 0;				//current weapon
 weaponspd = 5;			//current shooting speed
 ammo = 0;				//when ammo reaches zero, return to default weapon (unlimited ammo)
 cooldown = 0;			//able to fire again when cooldown reaches zero (based on weaponspd)
-hp = 10;
-max_hp = 10;
+hp = 5;
+max_hp = 5;
 hit_cooldown_time = 1*room_speed;
 hit_cooldown = 0;
