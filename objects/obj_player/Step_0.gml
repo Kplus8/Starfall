@@ -57,3 +57,13 @@ if (keyboard_check(ord("S")))	y+= spd;
 
 //angle sprite towards mouse cursor
 image_angle = point_direction(x,y,mouse_x,mouse_y);
+
+if(hit_cooldown > 0)
+{
+	hit_cooldown--;
+}
+
+if(hp < 0)
+{
+	game_restart();
+}
