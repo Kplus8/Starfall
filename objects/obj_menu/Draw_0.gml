@@ -1,2 +1,8 @@
-//draw title screen
-draw_sprite(spr_title,0,view_wview[0]/2,view_hview[0]/2);
+//Draw information
+draw_set_alpha(1)
+draw_set_color(c_red)
+
+draw_text_transformed(300, 250, "STARFALL", 5, 4, 15)
+
+draw_set_color(c_white)
+draw_text(400, 500, "Press enter to begin");
