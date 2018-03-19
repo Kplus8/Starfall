@@ -1,5 +1,5 @@
 //Create 8 new enemies
-if(num_enemies_spawned > num_enemies_max) {
+if(num_enemies_spawned < num_enemies_max) {
 	repeat(5)
 	{
 		instance_create_layer(random(room_width),random(room_height),"lay_enemy",obj_enemy);
