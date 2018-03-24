@@ -7,26 +7,24 @@ if (mouse_check_button(mb_left))
 	{
 		//reduce ammo of special weapon if necessary
 		ammo--;
-		if (ammo < 1) weapon = 0;
 		
-		//fire normal weapon (1 bullet)
-		if (weapon == 0)
-		{
+		//fire rifle (1 bullet)
+		if (global.playerWeapon == "Basic Rifle") {
+			weaponspd = 5
 			bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet);
-		}
-		else
-		{
-			//fire special weapon (3 bullets split)
+		} if (global.playerWeapon == "Basic Shotgun") {
+			//fire shotgun (3 bullets split)
+			weaponspd = 15
 			instance_create_layer(x,y,"lay_bullets",obj_bullet2);
 			bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet2);
 			with (bullet)
 			{
-				direction-=15;
+				direction-=10;
 			}
 			bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet2);
 			with (bullet)
 			{
-				direction+=15;
+				direction+=10;
 			}
 		}
 		//set cooldown to current weaponspeed

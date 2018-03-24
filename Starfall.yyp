@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "57917fa9-b364-4a39-aa17-b6361af87a1f",
+            "Value": {
+                "id": "a9d6dc76-b359-4c35-aa0d-a0804d62f98b",
+                "resourcePath": "objects\\objInvSlot\\objInvSlot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "597c37ae-725a-405c-aef2-1d23cbaa4f88",
             "Value": {
                 "id": "50b208f3-cc17-4d05-a950-ff0b507cb0a2",
