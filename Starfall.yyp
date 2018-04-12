@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "9b755e68-78bb-4fcb-9a58-9c4c671a0aca",
+            "Value": {
+                "id": "ae7b2816-4369-4014-bf16-0c2ba6e5527c",
+                "resourcePath": "objects\\objArmor\\objArmor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9b95547c-346b-4ebf-981c-81accaff705c",
             "Value": {
                 "id": "00a0ba89-f854-4e21-8805-d6ee53b67df0",
@@ -532,6 +540,14 @@
                 "id": "fc07398c-8acf-42ca-b0cc-6955a10fd398",
                 "resourcePath": "objects\\obj_menu\\obj_menu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ca082c62-b1da-4f0b-822a-7e69cc652543",
+            "Value": {
+                "id": "dd103007-37e8-409b-8cd6-1255662e06ea",
+                "resourcePath": "sprites\\sprBasicArmor\\sprBasicArmor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

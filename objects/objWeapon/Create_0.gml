@@ -1,4 +1,4 @@
 //How long the weapon remains available
-lifetime = 3000
+lifetime = 300
 
 type = ""

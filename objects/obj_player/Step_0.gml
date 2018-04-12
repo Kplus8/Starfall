@@ -37,6 +37,11 @@ else
 	spd = basespd; 
 }
 
+if (global.playerArmor == "Basic Armor") {
+	defense = 1
+} else {
+	defense = 0	
+}
 
 //tick down cooldown every frame
 if (cooldown > 0) cooldown--; 

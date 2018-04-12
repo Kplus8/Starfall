@@ -13,3 +13,7 @@ if (global.playerWeapon == "Basic Rifle") {
 }
 
 draw_text(256 + 32, display_get_height() - 128*3 -64 - 16, "Armor: ")
+
+if (global.playerArmor == "Basic Armor") {
+	draw_sprite(sprBasicArmor, 0, 256, display_get_height() - 128*3 -64)
+}

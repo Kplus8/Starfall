@@ -14,16 +14,21 @@ global.num_enemies_killed++;
 with (obj_camera) shake = 4;
 
 randomNum = random_range(0, 1);
-if(randomNum >= .9)
+if(randomNum >= .5)
 {
-	newWeapon = instance_create_layer(x,y,"lay_pickups",objWeapon);
 	randomNum = random_range(0, 1);
-	if (random_range(0, 1) > .5) {
+	if (randomNum > .66) {
+		newWeapon = instance_create_layer(x,y,"lay_pickups",objWeapon);
 		newWeapon.sprite_index = sprBasicShotgun
 		newWeapon.type = "Basic Shotgun"
-	} else {
+	} else if (randomNum > .33) {
+		newWeapon = instance_create_layer(x,y,"lay_pickups",objWeapon);
 		newWeapon.sprite_index = sprBasicRifle
 		newWeapon.type = "Basic Rifle"
+	} else {
+		newArmor = instance_create_layer(x,y,"lay_pickups",objArmor);
+		newArmor.sprite_index = sprBasicArmor
+		newArmor.type = "Basic Armor"
 	}
 } else {
 	randomNum = random_range(0, 1)
