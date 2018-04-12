@@ -14,7 +14,7 @@ global.num_enemies_killed++;
 with (obj_camera) shake = 4;
 
 randomNum = random_range(0, 1);
-if(randomNum >= .5)
+if(randomNum >= .9)
 {
 	randomNum = random_range(0, 1);
 	if (randomNum > .66) {
