@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "31046b4b-bdd0-4fdf-9df9-7cf2d7aae317",
-            "Value": {
-                "id": "564774d5-3df0-4732-8548-0de48438b3e9",
-                "resourcePath": "objects\\obj_weapon\\obj_weapon.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "33165d9d-cf52-4f2b-8e05-f02832650f05",
             "Value": {
                 "id": "2dda7e4b-0c0f-4f32-8591-77ae454e44ee",
@@ -195,14 +187,6 @@
             "Value": {
                 "id": "02712707-12c5-4bc7-8656-2c1ba76f1032",
                 "resourcePath": "objects\\obj_splatter\\obj_splatter.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "57917fa9-b364-4a39-aa17-b6361af87a1f",
-            "Value": {
-                "id": "a9d6dc76-b359-4c35-aa0d-a0804d62f98b",
-                "resourcePath": "objects\\objInvSlot\\objInvSlot.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -516,6 +500,14 @@
                 "id": "a11b1db6-da48-4da4-829d-e90cf39cb9dc",
                 "resourcePath": "views\\c2114def-8d97-4c47-8ff7-331425e21776.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c60f6c10-3911-485a-8a57-b91ed4aac7df",
+            "Value": {
+                "id": "6f59bb00-9323-46ba-bac0-15e3878e8c74",
+                "resourcePath": "sprites\\sprGrayRectangle\\sprGrayRectangle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

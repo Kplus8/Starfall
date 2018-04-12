@@ -1,23 +1,15 @@
 //Keep inventory screen on right side
-draw_sprite(sprInventory, 0, display_get_width() - 1024 - 128,  0)
+draw_sprite(sprGrayRectangle, 0, 0, display_get_height() - 128*3)
+
+draw_set_alpha(1);
+draw_set_colour(c_white);
+draw_set_font(-1);
+draw_text(128, display_get_height() - 128*3 -64 - 16, "Weapon: ")
+
 if (global.playerWeapon == "Basic Rifle") {
-	draw_sprite(sprBasicRifle, 0, display_get_width() - 1152 + 48, 312)
-	//TODO: unhardcode boundaries
+	draw_sprite(sprBasicRifle, 0, 192, display_get_height() - 128*3 -64)
 } else if (global.playerWeapon == "Basic Shotgun") {
-	draw_sprite(sprBasicShotgun, 0, display_get_width() - 1152 + 48, 312)
+	draw_sprite(sprBasicRifle, 0, 192, display_get_height() - 128*3 -64)
 }
 
-instance_create_layer(display_get_width() - 1152 + 32, 512,"lay_inv_slots", objInvSlot)
-
-/*
-if (global.invSlots[0] == "Basic Shotgun") {
-	draw_sprite(sprBasicShotgun, 0, display_get_width() - 1152 + 32, 512 + 64)
-} else if (global.invSlots[0] == "Basic Rifle") {
-	draw_sprite(sprBasicShotgun, 0, display_get_width() - 1152 + 32, 512 + 64)
-}
-*/
-	
-
-//TODO: Should iterate over all items in array
-
-//Still needs to update to support item swapping, will fix for next deliverable
+draw_text(256 + 32, display_get_height() - 128*3 -64 - 16, "Armor: ")
