@@ -6,9 +6,10 @@ global.playerWeapon = "Basic Rifle"
 global.playerArmor = "Empty"
 global.playerAbility = "Empty"
 global.playerItem = "Empty"
-*/
+
 for (var i = 0; i < 8; i++) {
 	global.invSlots[i] = "Empty"
 }
 
 global.invSlots[0] = "Basic Shotgun"
+*/
