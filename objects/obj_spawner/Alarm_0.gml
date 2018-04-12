@@ -12,7 +12,3 @@ if(num_enemies_spawned < num_enemies_max) {
 	//Reset alarm
 	alarm[0] = timer;
 }
-if(global.num_enemies_killed >= num_enemies_max) {
-	room_goto_next();
-	//possibly spawn a boss instead once we get more enemy types
-}
