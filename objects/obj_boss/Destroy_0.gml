@@ -4,7 +4,6 @@
 
 //Increase player score
 global.myscore += 1;
-global.num_enemies_killed++;
 
 //Play sound
 //audio_sound_pitch(snd_death,random_range(0.8,1.2));

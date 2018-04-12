@@ -70,3 +70,5 @@ if(hp < 0)
 {
 	game_restart();
 }
+
+global.playerHP = hp;

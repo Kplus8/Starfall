@@ -5,10 +5,9 @@ if (instance_exists(obj_player))
 }
 
 //Angle sprite based on direction
-image_angle = direction;
 
 //Gradually reduce "just hit" effect
 if (hit > 0) hit -= 0.05; else hit = 0;
 
 //Destroy if hp is less than or equal to 0
-if (hp <= 0) instance_destroy();
+if (global.hp <= 0) instance_destroy();

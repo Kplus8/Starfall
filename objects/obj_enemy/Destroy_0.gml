@@ -14,7 +14,7 @@ global.num_enemies_killed++;
 with (obj_camera) shake = 4;
 
 randomNum = random_range(0, 1);
-if(randomNum >= .9)
+if(randomNum >= .8)
 {
 	randomNum = random_range(0, 1);
 	if (randomNum > .66) {
@@ -33,7 +33,7 @@ if(randomNum >= .9)
 } else {
 	randomNum = random_range(0, 1)
 
-	if(randomNum >= .7) {
+	if(randomNum >= .7 && global.playerHP < global.maxHP) {
 		instance_create_layer(x,y,"lay_pickups",objHealth);
 	}
 }
