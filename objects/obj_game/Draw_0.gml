@@ -15,7 +15,7 @@ draw_text(
 draw_set_font(fnt_score);
 draw_text(
 	2+camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0])/2,
-	2+camera_get_view_y(view_camera[0])+54,20-global.myscore);
+	2+camera_get_view_y(view_camera[0])+54,30-global.myscore);
 
 
 
@@ -34,4 +34,4 @@ draw_text(
 draw_set_font(fnt_score);
 draw_text(
 	camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0])/2,
-	camera_get_view_y(view_camera[0])+54,20-global.myscore);
+	camera_get_view_y(view_camera[0])+54,30-global.myscore);

@@ -1,3 +1,3 @@
 if(hp < max_hp) {
-	hp++;
+	hp += 2;
 }

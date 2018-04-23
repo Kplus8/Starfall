@@ -12,6 +12,9 @@ global.myscore += 1;
 //Screenshake
 with (obj_camera) shake = 4;
 
+room_goto_next()
+
+/*
 randomNum = random_range(0, 1);
 if(randomNum >= .9)
 {
@@ -36,3 +39,4 @@ if(randomNum >= .9)
 		instance_create_layer(x,y,"lay_pickups",objHealth);
 	}
 }
+*/

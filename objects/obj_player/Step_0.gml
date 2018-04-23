@@ -10,11 +10,11 @@ if (mouse_check_button(mb_left))
 		
 		//fire rifle (1 bullet)
 		if (global.playerWeapon == "Basic Rifle") {
-			weaponspd = 5
+			weaponspd = 10
 			bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet);
 		} if (global.playerWeapon == "Basic Shotgun") {
 			//fire shotgun (3 bullets split)
-			weaponspd = 15
+			weaponspd = 30
 			instance_create_layer(x,y,"lay_bullets",obj_bullet2);
 			bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet2);
 			with (bullet)

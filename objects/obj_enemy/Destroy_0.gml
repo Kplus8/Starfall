@@ -14,10 +14,10 @@ global.num_enemies_killed++;
 with (obj_camera) shake = 4;
 
 randomNum = random_range(0, 1);
-if(randomNum >= .8)
+if(randomNum >= .75)
 {
 	randomNum = random_range(0, 1);
-	if (randomNum > .66) {
+	if (randomNum > .6) {
 		newWeapon = instance_create_layer(x,y,"lay_pickups",objWeapon);
 		newWeapon.sprite_index = sprBasicShotgun
 		newWeapon.type = "Basic Shotgun"

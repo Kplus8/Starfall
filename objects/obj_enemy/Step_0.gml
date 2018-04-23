@@ -5,7 +5,7 @@ if (instance_exists(obj_player))
 }
 
 //Angle sprite based on direction
-image_angle = direction;
+image_angle = direction + 90;
 
 //Gradually reduce "just hit" effect
 if (hit > 0) hit -= 0.05; else hit = 0;
