@@ -1,6 +1,6 @@
 //Create 8 new enemies
 if(num_enemies_spawned < num_enemies_max) {
-	repeat(5)
+	repeat(4)
 	{
 		random_x = obj_player.x;
 		random_y = obj_player.y;
