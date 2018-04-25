@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "9fccc1d9-8e9b-48a2-bc0e-69087225b478",
+            "Value": {
+                "id": "15347d81-7f82-486b-8a38-67fcaa78c00b",
+                "resourcePath": "scripts\\RoomCreationCode\\RoomCreationCode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9fd00035-95e4-4935-993b-b844894d8250",
             "Value": {
                 "id": "a25f176e-702e-412d-b9b1-06d245cfed2e",
@@ -570,7 +578,7 @@
             "Key": "c01bed03-3aac-4361-a750-5b96bf870285",
             "Value": {
                 "id": "eb03b87f-576b-4d37-b652-117d63073f04",
-                "resourcePath": "rooms\\rm_lv2\\rm_lv2.yy",
+                "resourcePath": "rooms\\rm_lv3\\rm_lv3.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -620,6 +628,14 @@
                 "id": "dd103007-37e8-409b-8cd6-1255662e06ea",
                 "resourcePath": "sprites\\sprBasicArmor\\sprBasicArmor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cab50e06-3ef7-4877-83ea-ad044f29ea9c",
+            "Value": {
+                "id": "f4e740cd-8b97-4f6f-8c4d-11144a40a250",
+                "resourcePath": "rooms\\rm_lv2\\rm_lv2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
