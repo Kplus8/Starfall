@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "06e6eff7-34d2-4536-9ba5-a9ea5811f71b",
+            "Value": {
+                "id": "14184863-2e4a-4cb6-964a-d5e0d07d8225",
+                "resourcePath": "objects\\obj_border\\obj_border.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "08679ddc-d3ec-410c-99e9-c29e9da12185",
             "Value": {
                 "id": "517365a4-3afb-4845-a76a-f0580d8522f3",

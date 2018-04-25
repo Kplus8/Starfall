@@ -1,10 +1,5 @@
 //Move towards player
-if (instance_exists(obj_player))
-{
-	move_towards_point(obj_player.x,obj_player.y,max(spd,0));
-}
 
-//Angle sprite based on direction
 
 //Gradually reduce "just hit" effect
 if (hit > 0) hit -= 0.05; else hit = 0;
